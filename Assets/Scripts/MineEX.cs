@@ -12,7 +12,7 @@ public class MineEX : MonoBehaviour
    
     void OnTriggerEnter2D(Collider2D colider){
 
-        if(colider.tag == "Zombie"){
+        if(colider.tag == "Zombie" || colider.tag == "BigZombie"){
 
             Collider2D[] hitZombies = Physics2D.OverlapCircleAll(transform.position, explosionRadius, zombieLayer);
 
