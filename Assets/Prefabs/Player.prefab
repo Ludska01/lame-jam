@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &720715006863703115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 720715006863703124}
+  m_Layer: 0
+  m_Name: snowBallSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &720715006863703124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720715006863703115}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8126010195338298669}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8126010195338298674
 GameObject:
   m_ObjectHideFlags: 0
@@ -15,6 +46,7 @@ GameObject:
   - component: {fileID: 6289313021394356488}
   - component: {fileID: 943297108}
   - component: {fileID: 943297109}
+  - component: {fileID: 720715005388398670}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -33,7 +65,8 @@ Transform:
   m_LocalPosition: {x: -2.7035491, y: -1.3535, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 720715006863703124}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -140,6 +173,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectMine: {fileID: 974349167472284646, guid: ce1d3f5c322a2f34381a8512b1e8ed53, type: 3}
   startMineCD: 5
+  baricadeBlueprint: {fileID: 7689216969201169240, guid: 8da22262dda51954e9a8b6be03b5b23e, type: 3}
+  startBaricadeCD: 5
+  snowball: {fileID: 4085710674459054907, guid: e8a53ae3b14b3614ba2a75708250f901, type: 3}
+  startSnowballCD: 5
 --- !u!60 &943297108
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -184,8 +221,8 @@ PolygonCollider2D:
       - {x: 2.04, y: 3.945}
       - {x: 2.137754, y: 4.3061233}
       - {x: 2.1356478, y: 4.396344}
-      - {x: 2.1435957, y: 4.6250668}
-      - {x: 1.9906653, y: 4.5090933}
+      - {x: 2.1162534, y: 4.509455}
+      - {x: 2.024284, y: 4.5090933}
       - {x: 1.8995886, y: 4.4106}
       - {x: 1.8192868, y: 4.3585644}
       - {x: 1.6899999, y: 4.415}
@@ -193,8 +230,9 @@ PolygonCollider2D:
       - {x: -0.089999996, y: 4.4249997}
       - {x: -1.6899999, y: 4.415}
       - {x: -1.7199999, y: 4.395}
-      - {x: -1.8407173, y: 4.471429}
-      - {x: -2.0509386, y: 4.6713505}
+      - {x: -1.8522782, y: 4.4020624}
+      - {x: -1.9667003, y: 4.5435095}
+      - {x: -2.0509386, y: 4.5441775}
       - {x: -2.04, y: 4.115}
       - {x: -2.03, y: 4.075}
       - {x: -2, y: 3.965}
@@ -254,3 +292,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec3dfb160c806f54e8720a7bc54adacd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &720715005388398670
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8126010195338298674}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 3.8276408}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.08, y: 8.85}
+    newSize: {x: 4.08, y: 8.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.08, y: 1.1330581}
+  m_EdgeRadius: 0
