@@ -139,7 +139,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectMine: {fileID: 974349167472284646, guid: ce1d3f5c322a2f34381a8512b1e8ed53, type: 3}
+  baricadeBlueprint: {fileID: 7689216969201169240, guid: 8da22262dda51954e9a8b6be03b5b23e, type: 3}
   startMineCD: 5
+  startBaricadeCD: 5
 --- !u!60 &943297108
 PolygonCollider2D:
   m_ObjectHideFlags: 0
