@@ -132,19 +132,19 @@ TextureImporter:
       name: baseTree
       rect:
         serializedVersion: 2
-        x: 16
-        y: 919
+        x: 11
+        y: 893
         width: 339
         height: 358
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 298b5cdf6866bec4f971aeb2bbbf33d7
-      internalID: 1949283388
+      spriteID: 2a6cce36741c32642b0f3ab98a656ce6
+      internalID: 1209744455
       vertices: []
       indices: 
       edges: []
@@ -158,14 +158,14 @@ TextureImporter:
         width: 124
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef41df23b13e5c246a96150753cb0f3d
-      internalID: -998266298
+      spriteID: 2b665c4c34b9da342a63583fe67725bf
+      internalID: 2133122373
       vertices: []
       indices: 
       edges: []
@@ -179,14 +179,14 @@ TextureImporter:
         width: 68
         height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b30782bf16575d34c88440312454df81
-      internalID: -1447657792
+      spriteID: a2cecbd79a25f1345b49e6eaf66c8dd4
+      internalID: -1247204963
       vertices: []
       indices: 
       edges: []
@@ -195,19 +195,19 @@ TextureImporter:
       name: tent
       rect:
         serializedVersion: 2
-        x: 757
+        x: 758
         y: 970
         width: 325
         height: 267
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e8e39d8c52dbe149b5e35b5a20f1133
-      internalID: -563261218
+      spriteID: d7c348fe5c829ff4499e28fe0c01c170
+      internalID: -653627048
       vertices: []
       indices: 
       edges: []
@@ -221,14 +221,119 @@ TextureImporter:
         width: 110
         height: 121
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cef27c55bc82e240b3c64141b39870e
-      internalID: -882516509
+      spriteID: 9b3d4ce4b83330f4c9a6698ba041712c
+      internalID: -575140472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinder1
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 1120
+        width: 106
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec85903e36f53c4fae2defa4ae9d4b5
+      internalID: -240243672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree1
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1151
+        width: 73
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808c7947d967ae5488a3424b44f54212
+      internalID: 1899561441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree3
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1089
+        width: 118
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d1a02d67ac677488bbac92af7f1962
+      internalID: -1981681065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grinder2
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 990
+        width: 106
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac64dca92e56abc45aa588663cda8621
+      internalID: -398804094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree2
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1064
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033e0affc2d27de41a0cde2210d35a87
+      internalID: -1961665752
       vertices: []
       indices: 
       edges: []
@@ -242,14 +347,14 @@ TextureImporter:
         width: 61
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95b2a130385d8cd49afeb9d3dd1180c5
-      internalID: 659317350
+      spriteID: 5ea302e3b46b2a849982cdfb3e2a5a2b
+      internalID: -32239908
       vertices: []
       indices: 
       edges: []
@@ -259,18 +364,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 603
-        y: 973
+        y: 976
         width: 91
         height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d044c9eeb0357647869abac1c5dab2b
-      internalID: -20977040
+      spriteID: 932e1133e136fee44810137036814847
+      internalID: -1307814628
       vertices: []
       indices: 
       edges: []
@@ -286,13 +391,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      chair: 659317350
-      tent: -563261218
-      barrel: -1447657792
-      campfire: -998266298
-      spikes: -882516509
-      box: -20977040
-      baseTree: 1949283388
+      chair: -32239908
+      tent: -653627048
+      spikes: -575140472
+      barrel: -1247204963
+      campfire: 2133122373
+      box: -1307814628
+      baseTree: 1209744455
+      tree3: -1981681065
+      grinder2: -398804094
+      grinder1: -240243672
+      tree1: 1899561441
+      tree2: -1961665752
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
