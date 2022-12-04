@@ -224,3 +224,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stunTime: 0
+  blood: {fileID: 7620468824311792536, guid: 14f73609a20cf13d88f8f37a0c65d89d, type: 3}
+  bloodSplatter: {fileID: 8650279017526348348, guid: 1075409d2b62f12f287472876df1109b, type: 3}
