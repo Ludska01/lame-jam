@@ -45,8 +45,7 @@ public class Zombie : MonoBehaviour
     public void Stun(float time) {
         //stun
         path.canMove = false;
-        zombieBody.isKinematic = true;
-        zombieBody.velocity = Vector2.zero;
+        zombieBody.velocity = Vector3.zero;
         StartCoroutine(StunTime(time));
         
     }
@@ -56,7 +55,6 @@ public class Zombie : MonoBehaviour
         yield return new WaitForSeconds(timeToWait);
         //unstun
         path.canMove = true;
-        zombieBody.isKinematic = false;
 
     }
 }

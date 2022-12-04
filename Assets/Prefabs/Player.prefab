@@ -171,10 +171,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfbfbf4cb589ad043acb5977ca37904a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectMine: {fileID: 974349167472284646, guid: ce1d3f5c322a2f34381a8512b1e8ed53, type: 3}
+  mineBlueprint: {fileID: 4355292917672953787, guid: 0020bcf019211b24baab9fefe24bd301, type: 3}
   startMineCD: 5
   baricadeBlueprint: {fileID: 7689216969201169240, guid: 8da22262dda51954e9a8b6be03b5b23e, type: 3}
   startBaricadeCD: 5
+  grinderBlueprint: {fileID: 3364941190127765642, guid: 894be6b85c43b8d41bf5ee911ccd09c8, type: 3}
+  startGrinderCD: 5
   snowball: {fileID: 4085710674459054907, guid: e8a53ae3b14b3614ba2a75708250f901, type: 3}
   startSnowballCD: 5
 --- !u!60 &943297108
