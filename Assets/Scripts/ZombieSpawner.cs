@@ -37,18 +37,16 @@ public class ZombieSpawner : MonoBehaviour
         float endX = endPoint.transform.position.x;
         float startY = startPoint.transform.position.y;
         float endY = endPoint.transform.position.y;
-       
+        Vector2 spawnLine = new Vector2(Random.Range(startX, endX), Random.Range(startY, endY));
 
         for (int i = 0; i < quantityToSpawnZombie; i++)
         {
-            Vector2 spawnLine = new Vector2(Random.Range(startX, endX), Random.Range(startY, endY));
             int rand = Random.Range(0, zombies.Count);
             Instantiate(zombies[rand], spawnLine , Quaternion.identity);
         }
 
         for (int i = 0; i < quantityToSpawnBigZombie; i++)
         {
-            Vector2 spawnLine = new Vector2(Random.Range(startX, endX), Random.Range(startY, endY));
             int rand = Random.Range(0, big_zombies.Count);
             Instantiate(big_zombies[rand], spawnLine , Quaternion.identity);
         }
