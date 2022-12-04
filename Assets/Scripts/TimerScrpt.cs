@@ -11,8 +11,7 @@ public class TimerScrpt : MonoBehaviour
     float cooldownTime;
     [SerializeField]
     TMP_Text coundownText;
-    [SerializeField]
-    TMP_Text wholeTime;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +21,6 @@ public class TimerScrpt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        wholeTime.text = "Score : " + ((int)Time.time);
         timeLeft -= (1 * Time.deltaTime);
         coundownText.text = "Next wave in: " + ((int)timeLeft).ToString() + "s"; 
 
