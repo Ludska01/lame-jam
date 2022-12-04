@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 974349167472284648}
   - component: {fileID: 974349167472284647}
   - component: {fileID: 974349167472284650}
+  - component: {fileID: 7138379550285284866}
   m_Layer: 0
   m_Name: Mine
   m_TagString: Untagged
@@ -123,3 +124,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7138379550285284866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974349167472284646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8368ee2c0b31f2ed8b0505629436c2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombieLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  explosionRadius: 2
