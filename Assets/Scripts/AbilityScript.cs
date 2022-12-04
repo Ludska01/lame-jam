@@ -7,17 +7,26 @@ public class AbilityScript : MonoBehaviour
     [SerializeField]
     private GameObject objectMine;
     [SerializeField]
+    private float startMineCD;
+
+    [SerializeField]
     private GameObject baricadeBlueprint;
     [SerializeField]
-    private float startMineCD;
-    [SerializeField]
     private float startBaricadeCD;
+
+    [SerializeField]
+    private GameObject snowball;
+    [SerializeField]
+    private float startSnowballCD;
+
+    private GameObject snowballSpawnPoint;
+    private float snowballCD = 0;
     private float baricadeCD = 0;
     private float mineCD = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
+        snowballSpawnPoint = gameObject.transform.GetChild(0).gameObject;
     }
 
     // Update is called once per frame
@@ -43,7 +52,21 @@ public class AbilityScript : MonoBehaviour
             baricadeCD -= Time.deltaTime;
             
         }
-       
+
+        if (snowballCD <= 0)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Instantiate(snowball, snowballSpawnPoint.transform.position, Quaternion.identity);
+               snowballCD = startSnowballCD;
+            }
+        }
+        else
+        {
+            snowballCD -= Time.deltaTime;
+
+        }
+
     }
         
 }
