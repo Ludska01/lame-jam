@@ -15,6 +15,8 @@ public class Blueprint : MonoBehaviour
     void Start()
     {
        sc = player.GetComponent<AbilityScript>();
+
+       
     }
 
     // Update is called once per frame
@@ -27,6 +29,7 @@ public class Blueprint : MonoBehaviour
         {
            
             Instantiate(prefab, transform.position, transform.rotation);
+ 
             Destroy(gameObject);
             
         }
