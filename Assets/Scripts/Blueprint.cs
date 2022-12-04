@@ -30,6 +30,10 @@ public class Blueprint : MonoBehaviour
             Destroy(gameObject);
             
         }
+
+        if (Input.GetKeyDown(KeyCode.Q)){
+            Destroy(gameObject);
+        }
         if (Input.GetMouseButtonDown(1)) {
             transform.Rotate(0, 0, 45);
         }
