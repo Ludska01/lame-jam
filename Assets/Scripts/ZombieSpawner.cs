@@ -16,7 +16,11 @@ public class ZombieSpawner : MonoBehaviour
     private float gameTime;
     [SerializeField]
     private float timeToWait = 5f;
-    // Start is called before the first frame update
+    [SerializeField]
+    private GameObject startPoint;
+    [SerializeField]
+    private GameObject endPoint;
+    // Start is called before the first frame update 
     void Start()
     {
         StartCoroutine(CSpawnZombies(timeToWait));
@@ -29,16 +33,22 @@ public class ZombieSpawner : MonoBehaviour
     }
 
     void SpawnZombies(int quantityToSpawnZombie, int quantityToSpawnBigZombie){
+        float startX = startPoint.transform.position.x;
+        float endX = endPoint.transform.position.x;
+        float startY = startPoint.transform.position.y;
+        float endY = endPoint.transform.position.y;
+        Vector3 spawnLine = new Vector3(Random.Range(startX,endX), Random.Range(startY,endY));
+
         for (int i = 0; i < quantityToSpawnZombie; i++)
         {
             int rand = Random.Range(0, zombies.Count);
-            Instantiate(zombies[rand], transform.position, Quaternion.identity);
+            Instantiate(zombies[rand], spawnLine , Quaternion.identity);
         }
 
         for (int i = 0; i < quantityToSpawnBigZombie; i++)
         {
             int rand = Random.Range(0, big_zombies.Count);
-            Instantiate(big_zombies[rand], transform.position, Quaternion.identity);
+            Instantiate(big_zombies[rand], spawnLine , Quaternion.identity);
         }
         StartCoroutine(CSpawnZombies(timeToWait));
     }   
@@ -49,5 +59,5 @@ public class ZombieSpawner : MonoBehaviour
         int quantityToSpawnBigZombie = (int) (gameTime / bigZombieSpawnRate);
         SpawnZombies(quantityToSpawnZombie, quantityToSpawnBigZombie);
     }
-    
+
 }

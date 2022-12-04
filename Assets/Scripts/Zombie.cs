@@ -9,6 +9,12 @@ public class Zombie : MonoBehaviour
    
     private Pathfinding.AIPath path;
     private Rigidbody2D zombieBody;
+
+
+    [SerializeField]
+    private GameObject blood;
+    [SerializeField]
+    private GameObject bloodSplatter;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +43,8 @@ public class Zombie : MonoBehaviour
 
         GetComponent<Collider2D>().enabled = false;
 
+        Instantiate(blood, transform.position ,Quaternion.identity);
+        Instantiate(bloodSplatter, transform.position ,Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
         Destroy(gameObject);
         
     }
@@ -57,4 +65,7 @@ public class Zombie : MonoBehaviour
         path.canMove = true;
 
     }
+
+
+
 }
