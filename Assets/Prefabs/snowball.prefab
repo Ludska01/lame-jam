@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48cef86323c4749468e852cc5495d128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snowBallGrowthRate: {x: 0.01, y: 0.01, z: 0.01}
+  snowBallGrowthRate: {x: 0.002, y: 0.002, z: 0.002}
   snowBallMaxGrowth: {x: 1, y: 1, z: 1}
   requiredVelocityForGrowth: 0.2
   requiredVelocityForKill: 0.5

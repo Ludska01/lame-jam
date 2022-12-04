@@ -22,7 +22,7 @@ public class TimerScrpt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        wholeTime.text = "Time : " + ((int)Time.time);
+        wholeTime.text = "Time : " + ((int)Time.time) + "s";
         timeLeft -= (1 * Time.deltaTime);
         coundownText.text = "Time till next wave: " + ((int)timeLeft).ToString() + "s"; 
 
