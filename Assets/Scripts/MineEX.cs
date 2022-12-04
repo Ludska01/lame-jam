@@ -28,4 +28,9 @@ public class MineEX : MonoBehaviour
         
     }
 
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(transform.position, explosionRadius);
+    }
+
 }
