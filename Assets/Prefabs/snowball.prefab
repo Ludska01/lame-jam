@@ -73,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1035724741
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 16aa973d963c80246a1c0b4de10e77b7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48cef86323c4749468e852cc5495d128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snowBallGrowthRate: {x: 0.0005, y: 0.0005, z: 0.0005}
+  snowBallGrowthRate: {x: 0.001, y: 0.001, z: 0.001}
   snowBallMaxGrowth: {x: 1, y: 1, z: 1}
   requiredVelocityForGrowth: 0.2
   requiredVelocityForKill: 0.5
