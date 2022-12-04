@@ -22,12 +22,6 @@ public class Zombie : MonoBehaviour
         path = gameObject.GetComponent<Pathfinding.AIPath>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void mineHit(){
         if (gameObject.tag == "BigZombie") {
             Stun(stunTime);

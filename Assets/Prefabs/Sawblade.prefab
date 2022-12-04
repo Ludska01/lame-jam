@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 1865610511461744763}
   - component: {fileID: 1865610511461744762}
   - component: {fileID: 1865610511461744765}
-  - component: {fileID: 2640203413712594645}
-  - component: {fileID: 514003475473327093}
   m_Layer: 0
   m_Name: Sawblade
   m_TagString: Untagged
@@ -29,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1865610511461744764}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.501, y: -1.822, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1035724741
   m_SortingLayer: 2
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c2c3b844a5acb5143b54000fdf5c633c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -107,90 +105,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!60 &2640203413712594645
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865610511461744764}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 4.0299997, y: 0.65, z: 4.02, w: 7.46}
-    pivot: {x: 0.50065124, y: 0.16667823}
-    oldSize: {x: 10.24, y: 10.24}
-    newSize: {x: 10.24, y: 10.24}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5233313, y: -0.8167853}
-      - {x: 0.6633313, y: -0.78678524}
-      - {x: 0.8233313, y: -0.73678523}
-      - {x: 0.7733313, y: -0.52678525}
-      - {x: 1.0033313, y: -0.38678527}
-      - {x: 0.93333125, y: -0.24678527}
-      - {x: 0.8733313, y: -0.17678528}
-      - {x: 1.0633312, y: -0.08678528}
-      - {x: 1.0933312, y: -0.016785277}
-      - {x: 1.0933312, y: 0.05321472}
-      - {x: 0.8733313, y: 0.18321472}
-      - {x: 0.9533313, y: 0.30321473}
-      - {x: 0.98333126, y: 0.3832147}
-      - {x: 0.9433313, y: 0.4232147}
-      - {x: 0.7633313, y: 0.54321474}
-      - {x: 0.7833313, y: 0.7232147}
-      - {x: 0.7533313, y: 0.7832147}
-      - {x: 0.5333313, y: 0.8332147}
-      - {x: 0.5033313, y: 0.9532147}
-      - {x: 0.4133313, y: 0.9932147}
-      - {x: 0.1833313, y: 0.8732147}
-      - {x: 0.023331298, y: 1.0732147}
-      - {x: -0.0666687, y: 1.0732147}
-      - {x: -0.4666687, y: 0.9732147}
-      - {x: -0.4966687, y: 0.9032147}
-      - {x: -0.5366687, y: 0.7332147}
-      - {x: -0.7666687, y: 0.7732147}
-      - {x: -0.8066687, y: 0.7332147}
-      - {x: -0.78666866, y: 0.4832147}
-      - {x: -0.9566687, y: 0.4232147}
-      - {x: -0.9966687, y: 0.3832147}
-      - {x: -0.90666866, y: 0.19321471}
-      - {x: -1.1066687, y: 0.03321472}
-      - {x: -1.1066687, y: -0.03678528}
-      - {x: -0.9466687, y: -0.16678527}
-      - {x: -0.9966687, y: -0.37678528}
-      - {x: -0.9466687, y: -0.41678527}
-      - {x: -0.7666687, y: -0.48678526}
-      - {x: -0.8066687, y: -0.71678525}
-      - {x: -0.7666687, y: -0.76678526}
-      - {x: -0.5366687, y: -0.72678524}
-      - {x: -0.5366687, y: -0.8167853}
-      - {x: -0.4666687, y: -0.97678524}
-      - {x: -0.4266687, y: -0.96678525}
-      - {x: -0.1966687, y: -0.8667853}
-      - {x: -0.0366687, y: -1.0667852}
-      - {x: 0.023331298, y: -1.0667852}
-      - {x: 0.1933313, y: -0.8667853}
-      - {x: 0.4133313, y: -0.97678524}
-      - {x: 0.46333128, y: -0.97678524}
---- !u!114 &514003475473327093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865610511461744764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 009d4977c56429a4188ce219363af84c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
