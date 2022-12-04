@@ -9,6 +9,8 @@ public class MineEX : MonoBehaviour
     private LayerMask zombieLayer;
     [SerializeField]
     private float explosionRadius;
+    [SerializeField]
+    private GameObject explosion;
    
     void OnTriggerEnter2D(Collider2D colider){
 
@@ -22,7 +24,7 @@ public class MineEX : MonoBehaviour
                 //zombie.GetComponent<ZombieBig>().mineHit();
 
             }
-
+            Instantiate(explosion, transform.position ,Quaternion.identity);
             Destroy(gameObject);
         }
         
