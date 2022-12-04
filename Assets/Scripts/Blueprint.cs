@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaricadeBlueprintScript : MonoBehaviour
+public class Blueprint : MonoBehaviour
 {
     RaycastHit2D hit;
     Vector2 movePoint;

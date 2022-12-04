@@ -13,7 +13,7 @@ GameObject:
   m_Layer: 0
   m_Name: ZombieSpawer
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -44,5 +44,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53971f7d3363cb0ba93af508b05b63f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 5238435583732012005, guid: 67f8409be4c83a44e87f48c1c296ee2d, type: 3}
-  big_zombie: {fileID: 5344563561018146657, guid: 18ca740bca507d0c7a18983d5df5168e, type: 3}
+  zombies:
+  - {fileID: 6207885974645706063, guid: 4f7dee65a065aedac9058b636548604b, type: 3}
+  - {fileID: 3253439036523802664, guid: 33476420fccd9f233b7694ecd73fe1f2, type: 3}
+  - {fileID: 295868857145956864, guid: b769fbd9fe54f642e9322e3b5a0c22ad, type: 3}
+  big_zombies:
+  - {fileID: 5344563561018146657, guid: 18ca740bca507d0c7a18983d5df5168e, type: 3}
+  - {fileID: 4459021363409563431, guid: 89c8d18056dc239259cd085988cebdac, type: 3}
+  - {fileID: 3076126353790890886, guid: 4ea08830cfe90f99d972d4e2c62ddbee, type: 3}
+  zombieSpawnRate: 10
+  bigZombieSpawnRate: 20
+  timeToWait: 30
