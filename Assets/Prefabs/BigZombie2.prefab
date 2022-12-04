@@ -76,8 +76,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1453990601
-  m_SortingLayer: 0
+  m_SortingLayerID: -933645603
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 538a1bd1292d7244d85731c4bf0876d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -224,3 +224,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stunTime: 5
+  blood: {fileID: 7620468824311792536, guid: 14f73609a20cf13d88f8f37a0c65d89d, type: 3}
+  bloodSplatter: {fileID: 8650279017526348348, guid: 1075409d2b62f12f287472876df1109b, type: 3}
