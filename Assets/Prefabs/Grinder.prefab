@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -933645603
   m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -240243672, guid: a8a555dc82ade744db2d18f93e0bca93, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166024a9ffa327544b79455b4ddbd459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombiesToGrind: 10
+  zombiesToGrind: 15
 --- !u!95 &6372173818095862516
 Animator:
   serializedVersion: 4
@@ -273,7 +273,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -933645603
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -398804094, guid: a8a555dc82ade744db2d18f93e0bca93, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

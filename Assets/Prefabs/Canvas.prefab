@@ -581,16 +581,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   abilityImage1: {fileID: 69453937570560159}
-  cooldown1: 5
+  cooldown1: 10
   ability1: 304
   abilityImage2: {fileID: 69453937221903504}
-  cooldown2: 5
+  cooldown2: 10
   ability2: 103
   abilityImage3: {fileID: 69453935928096067}
-  cooldown3: 5
+  cooldown3: 3
   ability3: 32
   abilityImage4: {fileID: 69453937575546102}
-  cooldown4: 5
+  cooldown4: 3
   ability4: 102
 --- !u!114 &-4424663887986185473
 MonoBehaviour:
@@ -606,7 +606,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cooldownTime: 30
   coundownText: {fileID: 5011866354805373144}
-  wholeTime: {fileID: 0}
 --- !u!1 &69453937570560145
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BaseScript : MonoBehaviour
 {
@@ -16,7 +17,15 @@ public class BaseScript : MonoBehaviour
 		currentHealth = maxHealth;
 		healthBar.SetMaxHealth(maxHealth);
 	}
-	void TakeDamage(int damage)
+
+    private void Update()
+    {
+        if (currentHealth <= 0)
+        {
+			SceneManager.LoadScene("EndGame");
+        }
+    }
+    void TakeDamage(int damage)
 	{
 		currentHealth -= damage;
 		healthBar.SetHealth(currentHealth);

@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bda32d6127660694ba3c05f0d2615e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baricadeHealth: 500
+  baricadeHealth: 250
   baricadeDamage: 0.1
 --- !u!114 &1286242122882801760
 MonoBehaviour:

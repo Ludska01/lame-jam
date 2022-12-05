@@ -173,13 +173,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mineBlueprint: {fileID: 4355292917672953787, guid: 0020bcf019211b24baab9fefe24bd301, type: 3}
-  startMineCD: 5
+  startMineCD: 3
   baricadeBlueprint: {fileID: 7689216969201169240, guid: 8da22262dda51954e9a8b6be03b5b23e, type: 3}
-  startBaricadeCD: 5
+  startBaricadeCD: 10
   grinderBlueprint: {fileID: 3364941190127765642, guid: 894be6b85c43b8d41bf5ee911ccd09c8, type: 3}
-  startGrinderCD: 5
+  startGrinderCD: 10
   snowball: {fileID: 4085710674459054907, guid: e8a53ae3b14b3614ba2a75708250f901, type: 3}
-  startSnowballCD: 5
+  startSnowballCD: 3
 --- !u!114 &943297109
 MonoBehaviour:
   m_ObjectHideFlags: 0
